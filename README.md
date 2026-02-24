@@ -5,8 +5,8 @@ Bu proje, Web Tasarimi ve Programlama dersi LAB-1 kapsaminda
 Vite + React + TypeScript kullanilarak olusturulmustur.
 
 ## Gelistirici
-- **Ad Soyad:** Yasin
-- **Ogrenci No:** 123456789
+- **Ad Soyad:** Rukiye Nur DANLER
+- **Ogrenci No:** 230542013
 
 ## Kullanilan Teknolojiler
 - React 18
