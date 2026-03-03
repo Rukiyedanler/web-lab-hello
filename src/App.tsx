@@ -5,6 +5,7 @@ function App() {
     <>
       <a href="#main-content" className="skip-link">Ana icerige atla</a>
       <header>
+        <div className="site-title">Rukiye Nur DANLER</div>
         <nav aria-label="Ana navigasyon">
           <ul>
             <li><a href="#hakkimda">Hakkimda</a></li>
@@ -27,11 +28,13 @@ function App() {
           <p>Bolum: Yazilim Muhendisligi</p>
           <p>Hobiler: Kod yazmak, kitap okumak, seyahat etmek.</p>
           <h3>Kullandigim Teknolojiler</h3>
-          <ul>
+          <ul className="skill-tags" role="list" aria-label="Beceri etiketleri">
             <li>HTML5</li>
             <li>CSS3</li>
             <li>JavaScript</li>
             <li>React</li>
+            <li>TypeScript</li>
+            <li>Git</li>
           </ul>
         </section>
 
