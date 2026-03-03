@@ -18,38 +18,62 @@ function App() {
       <main id="main-content">
         <section id="hakkimda">
           <h2>Hakkimda</h2>
-          <figure>
-            {/* Alt text is provided, but since we don't have an actual image yet, we use a placeholder or empty src. Leaving it empty might cause a broken image icon, so let's put a dummy image or just empty. */}
-            <img src="" alt="Rukiye Nur DANLER'in vesikalik fotografi" />
-            <figcaption>Rukiye Nur DANLER</figcaption>
-          </figure>
-          <p>Ad Soyad: Rukiye Nur DANLER</p>
-          <p>Ogrenci No: 230542013</p>
-          <p>Bolum: Yazilim Muhendisligi</p>
-          <p>Hobiler: Kod yazmak, kitap okumak, seyahat etmek.</p>
-          <h3>Kullandigim Teknolojiler</h3>
-          <ul className="skill-tags" role="list" aria-label="Beceri etiketleri">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>TypeScript</li>
-            <li>Git</li>
-          </ul>
+          <div className="about-content">
+            <figure>
+              {/* Alt text is provided, but since we don't have an actual image yet, we use a placeholder or empty src. Leaving it empty might cause a broken image icon, so let's put a dummy image or just empty. */}
+              <img src="" alt="Rukiye Nur DANLER'in vesikalik fotografi" />
+              <figcaption>Rukiye Nur DANLER</figcaption>
+            </figure>
+            <div>
+              <p>Ad Soyad: Rukiye Nur DANLER</p>
+              <p>Ogrenci No: 230542013</p>
+              <p>Bolum: Yazilim Muhendisligi</p>
+              <p>Hobiler: Kod yazmak, kitap okumak, seyahat etmek.</p>
+              <h3>Kullandigim Teknolojiler</h3>
+              <ul className="skill-tags" role="list" aria-label="Beceri etiketleri">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Git</li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <section id="projeler">
           <h2>Projelerim</h2>
-          <article>
-            <h3>E-Ticaret Sitesi</h3>
-            <p>Kullanicilarin urunleri inceleyip satin alabildigi bir web uygulamasi.</p>
-            <p><strong>Teknolojiler:</strong> React, Node.js</p>
-          </article>
-          <article>
-            <h3>Blog Uygulamasi</h3>
-            <p>Kisisel yazilarin paylasildigi dinamik bir blog platformu.</p>
-            <p><strong>Teknolojiler:</strong> HTML, CSS, JavaScript</p>
-          </article>
+          <div className="project-grid">
+            <article className="project-card">
+              <img src="" alt="E-Ticaret sitesi anasayfa ekran goruntusu" />
+              <h3>E-Ticaret Sitesi</h3>
+              <p>React ve Node.js ile gelistirilmis tam kapsamli bir e-ticaret uygulamasi.</p>
+              <ul className="skill-tags">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+              </ul>
+            </article>
+            <article className="project-card">
+              <img src="" alt="Blog uygulamasi yazi listesi gorunumu" />
+              <h3>Blog Uygulamasi</h3>
+              <p>Kisisel blog platformu. Markdown destekli yazi editoru.</p>
+              <ul className="skill-tags">
+                <li>TypeScript</li>
+                <li>Next.js</li>
+              </ul>
+            </article>
+            <article className="project-card">
+              <img src="" alt="Hava durumu uygulamasi arayuzu" />
+              <h3>Hava Durumu</h3>
+              <p>OpenWeather API ile anlik hava durumu bilgisi.</p>
+              <ul className="skill-tags">
+                <li>JavaScript</li>
+                <li>API</li>
+              </ul>
+            </article>
+          </div>
         </section>
 
         <section id="iletisim">
