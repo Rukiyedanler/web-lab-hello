@@ -25,6 +25,4 @@ npm run dev
 
 ## Ekran Goruntusu
 Tarayicida http://localhost:5173 adresini ac.
-<img width="1911" height="989" alt="image" src="https://github.com/user-attachments/assets/ae1e3465-5413-48b0-b993-f16bac9d2534" />
-
 
